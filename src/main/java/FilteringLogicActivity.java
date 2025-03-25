@@ -57,6 +57,8 @@ public class FilteringLogicActivity {
         /**
          * Problem 1: Write a statement that will query the above table for all employees named 'Steve' who earn
          * more than $75,000.
+         *
+         * NOTE: Please write the SQL statement on a single line (do not use multi-line formatting).
          */
         String sql = FileUtil.parseSQLFile("problem1.sql");
 
@@ -82,6 +84,8 @@ public class FilteringLogicActivity {
         /**
          * Problem 2: Write a statement that will query the above table for all employees who earn more than $100,000 or less
          * than $50,000
+         *
+         * NOTE: Please write the SQL statement on a single line (do not use multi-line formatting).
          */
         String sql = FileUtil.parseSQLFile("problem2.sql");
 
@@ -108,6 +112,8 @@ public class FilteringLogicActivity {
          * Problem 3: Write a statement that will query the above table for all employees who earn more than $50,000 and are NOT
          * named 'Steve'
          * Hint: Look up the NOT and IN logical operators.
+         *
+         * NOTE: Please write the SQL statement on a single line (do not use multi-line formatting).
          */
         String sql = FileUtil.parseSQLFile("problem3.sql");
 
